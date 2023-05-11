@@ -1,38 +1,322 @@
-.App {
-  text-align: center;
+.navbar{
+  background: #1d1c1c82!important;
+}
+.navbar-nav li
+  {
+   padding: 0 10px;
+   }
+ .navbar-nav li a
+{
+  color: #fff!important;
+  font-weight: 600;
+  font-size: 20px;
+ }
+.moblogo{
+      display: none;
+   }
+
+ @media(max-width: 768px)
+ {
+   .moblogo{
+      display: block;
+   }
+   .weblogo{
+    display: none;
+   }
+   .navbar{
+    background: #fcb21b !important;
+
+   }
+   .img12{
+    margin-top: 78px;
+   }
+  .mobile{
+    margin-top: 40px;
+  }
+ }
+ .navbar img{
+  width: 75px;
+ }
+ .i{
+  font-size: 40px;
+  color: #fcb01b;
+  margin: 6px;
+  cursor: pointer;
+}
+.weblogo {
+  width: 65px;
+}
+.h1 {
+  padding-top: 20px;
+  text-transform: uppercase;
+  font-family: "prague";
+  letter-spacing: 3px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.p {
+  line-height: 35px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  padding-right: 5px;
+  text-align: justify;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.webimg {
+  width: 80%;
+}
+
+@media only screen and (max-width: 768px) {
+  .webimg {
+    width: 100%;
+    margin-top: 18px;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.BANNER2 {
+  background: url(https://www.firstfiddle.in/assets/images/bannerabout.jpg);
+  width: 100%;
+  height: 500px;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+  margin-right: auto;
+  margin-left: auto;
+  background-size: cover;
+}
+/* .text-2 {
+  margin-top: 30px;
+} */
+.BANNER3 {
+  background: url(https://www.firstfiddle.in/assets/images/outletbanner.png);
+  width: 100%;
+  height: 500px;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+  margin-right: auto;
+  margin-left: auto;
+  background-size: cover;
+}
+footer{
+ background: #020306f0;
+ color: #fff;
+ padding: 50px;
+}
+footer .img{
+  margin-top: 40px;
+  margin-bottom: 80px;
+  height: 230px;
+  
+}
+li:hover{
+  color: #fbaa1a;
+ }
+ .h-cl1{
+  color: #fbaa1a;
+ }
+ .h-cl2{
+  background-color: #fcb01b;
+  font-family: 'Montserrat', sans-serif;
   color: white;
+   box-shadow: 0px 2px 4px 1px rgb(138, 138, 141);
+ }
+ .h-cl3{
+  box-shadow:  0px 2px 4px 1px rgb(138, 138, 141);
+ }
+ .h-cl4{
+  font-family: prague
+ }
+
+ .h-cl6{
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #fcb01b;
+  border-radius: 0px;
+  color: white;
+ }
+ .h-cl7{
+  color: #fbaa1a; font-family: 'prague';
+ }
+ .h-cl8{
+  margin: 0 40px;
+ }
+ .f-1{
+  margin-top: -30px;
+ }
+ .f-2{
+  color: #ffad00;
+ }
+ .f-3{
+  font-size: 18px;
+ }
+ .f-4{
+  color: #fcb01b; font-size: 20px;
+ }
+ .f-5{
+  color: #fcb01b; font-size: 20px;
+ }
+.f-6{
+  font-size: 15px; margin-top: -11px; font-family: 'Montserrat',sans-serif;
+}
+.f-7{
+  color: #fcb01b;
+}
+.f-8{
+  background-color: black; height: 120px;
+}
+.f-9{
+  word-spacing: 4px;margin-top: 30px;font-size: 14px; text-align: center;
+}
+.banner1-1{
+  background: url(https://www.firstfiddle.in/assets/images/new-about-us-1.jpg);
+  width: 100%;
+  height: 550px;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+  margin-right: auto;
+  margin-left: auto;
+  background-size: cover;
+}
+.text-2{
+  margin-top: 200px;
+  font-family: prague;
+}
+.a-cl1{
+  margin-top: 120px;
+  margin-bottom: 40px;
+}
+.a-cl2{
+  background-color: #fcb01b;
+              font-family: 'Montserrat', sans-serif;
+              color: white;
+               box-shadow: 0px 2px 4px 1px rgb(138, 138, 141);
+}
+.shadowimg{
+  box-shadow: 4px 3px 4px 1px rgb(138, 138, 141);
+}
+.webimg {
+  width: 80%;
 }
 
-.App-link {
-  color: #61dafb;
+@media only screen and (max-width: 768px) {
+  .webimg {
+    width: 100%;
+    margin-top: 18px;
+  }
 }
+p{
+  line-height: 35px;
+  letter-spacing: 1px;
+  padding-right: 5px;
+  text-align: justify;
+  font-family: prague;
+  font-size: 17px;
+}
+.BANNER3 {
+  background: url(https://www.firstfiddle.in/assets/images/gamebanner.jpg);
+  width: 100%;
+  height: 500px;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+  margin-right: auto;
+  margin-left: auto;
+  background-size: cover;
+}
+.a-cl3{
+  word-spacing: 6px; line-height: 30px;
+}
+.banner1-2 {
+  background: url(https://www.firstfiddle.in/assets/images/brands.jpg);
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+}
+.BRANDS {
+  font-family: prague;
+  font-size: 80px;
+  margin-top: 250px;
+}
+.b-cl1{
+  width: 100%!important;
+}
+.banner1-3 {
+  background: url(https://www.firstfiddle.in/assets/images/new-our-team.jpg );
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+}
+.i{
+        font-size: 35px;
+        color: #fcb01b;
+        margin: 6px;
+        cursor: pointer;
+  }
+  .o-cl1{
+    background-color: #fbac29;
+    font-size: 19px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+     box-shadow: 4px 3px 4px 1px rgb(138, 138, 141);
+  
+  }
+  .o-cl2{
+    font-size: 18px; font-family: 'Montserrat',sans-serif; font-weight: 400;
+  }
+  .o-cl3{
+    font-weight: 400; 
+  }
+  .o-cl4{
+    margin-top: 267px;
+  }
+  .shadowimg{
+    box-shadow: 4px 3px 4px 1px rgb(138, 138, 141);
+  }
+  .img12{
+    margin-top: 78px;
+   }
+   .c-cl1{
+    color: #fbab19; font-size: 16px; font-weight: bolder; font-family:'Montserrat',sans-serif ;
+   }
+   .c-cl2{
+    font-size: 17px; margin-top: -4px; color: gray;
+   }
+   .c-cl3{
+    color: #fbab19; font-size: 15px;
+   }
+   .c-cl4{
+    font-size: 17px; margin-top: -12px; color:gray;
+   }
+   .c-cl5{
+    color: gray; font-size: 18px; font-family:'Montserrat',sans-serif ;
+   }
+   .c-cl6{
+    font-size: 17px; margin-top: -10px; color: gray;
+   }
+   .c-cl7{
+    color: gray; font-weight: 300px; font-family: prague;
+   }
+   .c-cl8{
+    font-family: 'Montserrat',sansserif; font-size: 16px; letter-spacing: 1px; margin-top: -11px; line-height: 3px; color: gray;
+   }
+   .whi{
+    color: white;
+   }
+   .c-bgg{
+    background-color: #fbab19; 
+   }
+   .c-cl9{
+    background-color: f0c066; color: white; width: 100; height: 50;
+   }
+   .c-cl10{
+    height: 100px;
+   }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+   .banner1-4{
+    background: url(https://www.firstfiddle.in/assets/images/CONTACT-US.jpg);
+    width: 100%;
+    height: 550px;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    margin-right: auto;
+    margin-left: auto;
+    background-size: cover;
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+

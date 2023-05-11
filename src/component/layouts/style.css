@@ -1,0 +1,28 @@
+/* .navbar {
+    background: #1d1c1c82 !important;
+  }
+  .navbar-nav li {
+    padding: 0 10px;
+  }
+  .navbar-nav li a {
+    color: #fff !important;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .moblogo {
+    display: none;
+  }
+  @media (max-width: 768px) {
+    .moblogo {
+      display: block;
+    }
+    .weblogo {
+      display: none;
+    }
+    .navbar {
+      background: #fcb21b !important;
+    }
+}
+.navbar img{
+    width: 100px;
+}  */
